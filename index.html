@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Aplicación de identificación de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Combo&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="main.js"></script>
+    <center>
+        <div class="heading">
+    <h1>Sonidos de animales</h1>
+    <label>Nota:reproduce diferentes sonidos como ladriodos,maullidos,mugidos o aullidos</label>
+        </div>
+        <br>
+        <button class="btn btn-info" id="iniciar" onclick="startClassification();">Iniciar</button>
+        <p id="name"></p>
+        <p id="escucho">escucho-</p>
+        <div id="imagenes">
+        <img src="Oido.png">
+        </div>
+        <div class="copy_right_footer">Desarrollado por:Gio</div>
+    </center>
+  </body>
+</html> 

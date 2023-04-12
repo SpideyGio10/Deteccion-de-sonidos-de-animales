@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(190, 190, 190);
+}
+.heading{
+    font-family: 'Combo', cursive;
+    background-color: gray;
+    color: white;
+    height: 85px;
+}
+img{
+    height:70%;
+}
+.copy_right_footer{
+    background-color: gainsboro;
+    font-size: 15px;
+    height: 35px;
+}
+.imagenes{
+    background-color: white;
+    height: 70%;
+}
